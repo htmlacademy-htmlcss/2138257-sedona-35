@@ -1,0 +1,172 @@
+@font-face {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts\ptsans-400.woff2") format ("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts\ptsans-700.woff2") format ("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.button {
+  font-family: inherit;
+  color:#ffffff;
+  background-color: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.small-button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.big-button {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.blue-button {
+  background-color: #82b3d3;
+}
+
+
+.page-header {
+  color: #000000;
+  background-color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.navigation-link {
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  background-color: #ffffff;
+  text-transform: uppercase;
+}
+
+.welcome-to-sedona {
+  color: #000000;
+  background-color: #ffffff;
+  background-image: url("../images/main/main-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 485px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.tagline {
+  text-align: center;
+}
+
+.main-page {
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.big-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.big-description {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26 px;
+  text-transform: none;
+}
+
+.small-title {
+  font-weight: 700;
+  font-size: 24 px;
+  line-height: 28 px;
+  text-transform: uppercase;
+}
+
+.small-description {
+  font-weight: 400;
+  font-size: 18 px;
+  line-height: 21 px;
+  text-transform: none;
+}
+
+.subscription {
+  color: #000000;
+  background-color: #ffffff;
+  background-image: url("../images/main/another-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 414.86px;
+}
+
+.blue-section {
+  color:#ffffff;
+  background-color: #82b3d3;
+}
+
+.light-blue {
+  color:#000000;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.middle-blue {
+  color:#000000;
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.page-footer {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.footer-social {
+  text-align: left;
+}
+
+.footer-contact {
+  text-align: center;
+}
+
+.footer-logo {
+  text-align: right;
+}
